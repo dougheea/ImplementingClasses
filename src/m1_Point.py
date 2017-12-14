@@ -88,7 +88,7 @@ class Point(object):
 
 
 # ----------------------------------------------------------------------
-# Done: 2. With your instructor, READ THE INSTRUCTIONS
+# Done: 2. Witsh your instructor, READ THE INSTRUCTIONS
 #   in file  m0_INSTRUCTIONS.txt, asking questions as needed.
 #
 #   Then implement a class called   Point   that has NO METHODS yet,
