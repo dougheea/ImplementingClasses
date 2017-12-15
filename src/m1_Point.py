@@ -80,15 +80,16 @@ class Point(object):
             return p3
 
     def halfway_to(self, point):
-        self.x = self.x + ((point.x - self.x)/2)
-        self.y = self.y + ((point.y - self.y)/2)
-        return self
+        x = self.x + ((point.x - self.x)/2)
+        y = self.y + ((point.y - self.y)/2)
+        point = Point(x, y)
+        return point
 
 
 
 
 # ----------------------------------------------------------------------
-# Done: 2. Witsh your instructor, READ THE INSTRUCTIONS
+# Done: 2. With your instructor, READ THE INSTRUCTIONS
 #   in file  m0_INSTRUCTIONS.txt, asking questions as needed.
 #
 #   Then implement a class called   Point   that has NO METHODS yet,
@@ -1075,7 +1076,7 @@ def run_test_halfway_to():
 
     """
     # ------------------------------------------------------------------
-    # TODO: 13.  Follow the same instructions as in TODO 3 above,
+    # Done: 13.  Follow the same instructions as in Done 3 above,
     #    but for the  halfway_to  method specified above.
     # ------------------------------------------------------------------
     print()
